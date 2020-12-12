@@ -83,7 +83,7 @@ function quick_link() {
     });
     $('.quick-link > ul > li > .tour').click(function () {
         $('html').animate({
-            scrollTop: 2325
+            scrollTop: 2300
         }, 500);
     });
 }

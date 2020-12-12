@@ -298,7 +298,10 @@ label[for] {
 .page-2 .section2 .img-02 {
     width: 596px;
     height: 367px;
-    background: url(https://www.redcap.co.kr/static-pc/ir/img/main/img_illust_BizTrip.svg) no-repeat;
+}
+
+.page-2 .section2 .img-02-text-box {
+    z-index: 500;
 }
 
 .page-2 .text-head {
@@ -307,6 +310,7 @@ label[for] {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 10px;
+    white-space: nowrap;
 }
 
 .page-2>.section2 .img-02-text-box,
@@ -317,6 +321,7 @@ label[for] {
 .page-2 .text-body {
     font-size: 40px;
     line-height: 48px;
+    white-space: nowrap;
 }
 
 .page-2 .text-tail {
@@ -327,6 +332,7 @@ label[for] {
     font-size: 18px;
     letter-spacing: -1px;
     line-height: 27px;
+    white-space: nowrap;
 }
 
 .page-2 .text-tail::after {
@@ -706,3 +712,5 @@ label[for] {
     color: #999;
     padding-left: 5.5px;
 }
+
+/*  */
