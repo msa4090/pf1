@@ -367,10 +367,12 @@ a {
     font-weight: 800;
     margin-bottom: 20px;
     letter-spacing: -1.6px;
+    margin-left: 25px;
 }
 
 .t-container .today-movie-list .swiper-slide {
     position: relative;
+    z-index: 10;
 }
 
 .t-container .today-movie-list .swiper-slide .img-box {
@@ -509,4 +511,44 @@ a {
     border: 2px solid black;
     border-radius: 1%;
     box-sizing: border-box;
+}
+
+.t-container .swiper-pagination {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin: 0 5px;
+    z-index: 2;
+}
+
+.t-container .swiper-pagination .swiper-pagination-bullet {
+    margin: 0 5px;
+    width: 8px;
+    height: 8px;
+    outline: none;
+    background-color: #fff;
+    border: 2px solid #333;
+    opacity: .95;
+    position: relative;
+}
+
+.t-container .swiper-pagination .swiper-pagination-bullet::after {
+    content: '';
+}
+
+.t-container .swiper-pagination .swiper-pagination-bullet-active {
+    border: 0;
+    position: relative;
+}
+
+.t-container .swiper-pagination .swiper-pagination-bullet-active::after {
+    content: '';
+    position: absolute;
+    top: -8px;
+    right: 3px;
+    width: 2px;
+    height: 20px;
+    background-color: red;
+    transform: rotate(35deg);
+    transition: .3s;
 }
