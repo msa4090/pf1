@@ -1,11 +1,25 @@
 function todaymovie__init() {
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('.sc-1', {
         slidesPerView: 3,
-        // el: '.swiper-pagination',
         loop: true,
         pagination: {
             el: '.swiper-pagination',
             clickable: true
+        }
+    });
+}
+
+function sslide__init() {
+    var swiper = new Swiper('.sc-2', {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
         }
     });
 }
@@ -23,3 +37,4 @@ function clickMovie__init() {
 
 clickMovie__init();
 todaymovie__init();
+sslide__init();
