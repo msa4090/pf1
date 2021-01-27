@@ -42,24 +42,7 @@ a {
     position: relative;
     background: url(https://www.biff.kr/kor/img/main/visual_01.jpg) 50% 0;
     background-size: cover;
-}
-
-@media(min-width:1680px) {
-    .main {
-        height: 720px;
-    }
-}
-
-@media(max-width:1680px) {
-    .main {
-        height: 600px;
-    }
-}
-
-@media(max-width:1050px) {
-    .main {
-        height: 450px;
-    }
+    height: 720px;
 }
 
 .top-bar-1 {
@@ -223,102 +206,6 @@ a {
     font-weight: 400;
 }
 
-/* 반응형 */
-@media(max-width:1050px) {
-    .main .thx .text-box {
-        font-size: 12px;
-        padding: 0 40px;
-        padding-top: 82px;
-    }
-
-    .main .thx .text-box .line span {
-        font-size: 18px;
-    }
-}
-
-@media(max-width:768px) {
-    .main .thx .text-box .m_none {
-        display: none;
-    }
-
-    .main .thx .text-box {
-        padding-top: 24px;
-        padding-bottom: 66.7%;
-    }
-}
-
-@media(min-width:1050px) {
-    .main .top-bar-2 .menu-box-1>ul>li:hover ul {
-        display: block;
-    }
-
-    .main .top-bar-2 .m-menu-box {
-        display: none;
-    }
-}
-
-@media(max-width:1680px) {
-    .main .thx {
-        margin-top: -80px;
-    }
-}
-
-@media(max-width:1324px) {
-    .main .thx {
-        margin-top: -110px;
-    }
-
-    .main .thx .text-box {
-        font-size: 17px;
-    }
-
-    .main .thx .text-box span {
-        font-size: 30px;
-    }
-}
-
-@media(max-width:1050px) {
-    .main {
-        position: relative;
-        margin-right: 0;
-    }
-
-    .main .top-bar-1,
-    .main .top-bar-2 .menu-box-1 {
-        display: none;
-    }
-
-    .main .top-bar-2 {
-        display: flex;
-        justify-content: center;
-    }
-
-    .main .top-bar-2 .logo>a {
-        background: url(https://www.biff.kr/kor/img/cmm/logo_m.png)no-repeat center center;
-        height: 80px;
-        line-height: 80px;
-        background-size: 220px;
-    }
-
-    .main .top-bar-2 .m-menu-box {
-        display: block;
-    }
-
-    .main .thx {
-        margin-top: 0;
-    }
-
-    .main .thx .text-box {
-        font-size: 12px;
-        padding: 0 40px;
-        padding-top: 82px;
-    }
-
-    .main .thx .text-box .line span {
-        font-size: 18px;
-    }
-}
-
 .main .top-bar-2 .m-menu-box {
     cursor: pointer;
     position: fixed;
@@ -348,12 +235,6 @@ a {
 
 .main .m-menu-box .bline {
     bottom: 0;
-}
-
-@media(max-width:1250px) {
-    .thx {
-        font-size: 18px;
-    }
 }
 
 /* 트레일러 부분 */
@@ -524,10 +405,7 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    margin: 0 5px;
-    z-index: 2;
-    width: 8px;
-    height: 8px;
+    z-index: 2;    
     margin-left: 550px;
 }
 
@@ -579,18 +457,6 @@ a {
     border-radius: 0;
     transform: rotate(30deg);
     transition: all .3s;
-}
-
-/* 트레일러 반응형 */
-@media(max-width:768px) {
-    .t-container .text-box span {
-        font-size: 12px;
-        line-height: 11px;
-    }
-
-    .t-container .text-box .title {
-        font-size: 16px;
-    }
 }
 
 /* 두 번째 슬라이드 */
