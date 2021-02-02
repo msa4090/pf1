@@ -413,11 +413,9 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    margin: 0 5px;
     z-index: 4;
-    width: 8px;
-    height: 8px;
     margin-left: 39%;
+    overflow: hidden;
 }
 
 .t-container .sc-1 {
@@ -790,7 +788,8 @@ a {
 
 .f_list>ul>li {
     display: inline-block;
-    position: relative;    
+    position: relative;
+    /*   float:left; */
 }
 
 .f_list>ul>li:not(:first-child) {
